@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/wavy"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/round_person_24"
+            android:drawablePadding="8dp"
+            android:text="Profile"
+            android:textColor="@color/teal_400"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/round_local_dining_24"
+            android:drawablePadding="8dp"
+            android:text="My recipes"
+            android:textColor="@color/teal_400"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/round_settings_24"
+            android:drawablePadding="8dp"
+            android:text="Settings"
+            android:textColor="@color/teal_400"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/round_info_24"
+            android:drawablePadding="8dp"
+            android:text="About Us"
+            android:textColor="@color/teal_400"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/round_question_mark_24"
+            android:drawablePadding="8dp"
+
+            android:text="FAQ"
+            android:textColor="@color/teal_400"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/round_logout_24"
+                android:drawablePadding="8dp"
+                android:paddingTop="25dp"
+                android:text="Log Out"
+                android:textColor="@color/teal_400"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

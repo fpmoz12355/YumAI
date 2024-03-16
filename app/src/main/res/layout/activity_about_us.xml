@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="250sp"
+                    android:layout_height="250sp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/about_us" />
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About YumAI"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/answer1"
+                    android:text="Welcome to YumAI, where the art of cooking meets the power of artificial intelligence! Developed by Lucija Živković, a computer science master's degree candidate at the University of Mostar, YumAI is a revolutionary Android app designed to unite food enthusiasts and tech aficionados alike."
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+
+                <TextView
+                    android:id="@+id/question2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Vision"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/answer2"
+                    android:text="At YumAI, we believe in the seamless fusion of culinary passion and modern technology. Our goal is to create a vibrant community where lovers of delicious cuisine can come together, share their culinary creations, and explore the world of gastronomy with the assistance of cutting-edge AI models."
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/question3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A Journey from Thesis to App"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/answer3"
+                    android:text="YumAi is more than just an app; it's the culmination of Lucija Živković's master's degree thesis. As a computer science student at the University of Mostar, Lucija envisioned a platform that seamlessly merges the culinary arts with the capabilities of artificial intelligence. YumAI is a testament to her dedication to innovation and the pursuit of bringing people together through the love of food and technology."
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:id="@+id/question4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Join the Culinary Revolution"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/answer4"
+                    android:text="Embark on a culinary journey with YumAI, where every recipe tells a story and every dish is an expression of creativity. Download the app today, and become part of a global community that celebrates the delicious intersection of cuisine and modern technology.
+
+YumAI - Where Culinary Passion Meets Innovation!"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:backgroundTintMode="add"
+            android:padding="0dp"
+            app:addElevationShadow="true"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:elevation="8dp"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+            app:removeEmbeddedFabElevation="false"
+            app:titleMargin="0dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:background="@android:color/transparent"
+                app:elevation="0dp"
+                app:fabCradleMargin="10dp"
+                app:fabCradleRoundedCornerRadius="50dp"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/bottom_menu" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/saveFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/round_add_24"
+            app:tint="@color/white"
+            app:layout_anchor="@id/bottomAppBar"
+            app:maxImageSize="40dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/nav_drawer" />
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

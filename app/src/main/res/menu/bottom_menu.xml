@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/round_home_24"/>
+
+    <item
+        android:id="@+id/categories"
+        android:title="Categories"
+        android:icon="@drawable/round_category_24_menu"/>
+
+    <item
+        android:id="@+id/fab_menu"
+        android:title=""
+        android:icon="@drawable/round_add_24"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/round_search_24"/>
+
+    <item
+        android:id="@+id/favourites"
+        android:title="Favourites"
+        android:icon="@drawable/round_favorite_border_24"/>
+
+
+
+</menu>

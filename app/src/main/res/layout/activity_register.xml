@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:padding="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:padding="25sp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/baseline_mail_24_teal400" />
+
+                <EditText
+                    android:id="@+id/registerMailTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter email"
+                    android:inputType="textEmailAddress" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/baseline_person_24_teal_400" />
+
+                <EditText
+                    android:id="@+id/registerDisplayNameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Display name" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/baseline_phone_android_24_teal_400" />
+
+                <EditText
+                    android:id="@+id/registerPhoneTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Phone" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10sp">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/outline_lock_24_teal_400"/>
+                <EditText
+                    android:id="@+id/registerPasswordTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/baseline_lock_24_teal400" />
+
+                <EditText
+                    android:id="@+id/registerPasswordCnf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Confirm password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveProfileBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                app:cornerRadius="20sp"
+                app:rippleColor="@color/teal_600" />
+
+            <TextView
+                android:id="@+id/noAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="You already have an account? Log in."
+                android:textAlignment="center"
+                android:textColor="@color/teal_400"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aqua">#e1f1f1</color>
+    <color name="sienna">#ebbc4c</color>
+    <color name="teal_100">#8cdbcc</color>
+    <color name="teal_200">#84dcc4</color>
+    <color name="teal_300">#84bab4</color>
+    <color name="teal_400">#3faf97</color>
+    <color name="teal_500">#63a3a4</color>
+    <color name="teal_600">#548292</color>
+    <color name="green">#64b084</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

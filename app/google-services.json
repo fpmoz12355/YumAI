@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523061936348",
+    "project_id": "yumai-a1500",
+    "storage_bucket": "yumai-a1500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523061936348:android:d835f3cac4c0524ce03419",
+        "android_client_info": {
+          "package_name": "ba.sum.fpmoz.yumai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwAaC7b1t_IC6DhhgS1IqL0aoWcod6HgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
